@@ -1,0 +1,24 @@
+{
+  "name": "ai_study",
+  "version": "1.0.0",
+  "description": "다양한 ai 개발 도구 및 어시스턴트 연동 테스트 코드입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejeongkim/ai_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ejeongkim/ai_study/issues"
+  },
+  "homepage": "https://github.com/ejeongkim/ai_study#readme",
+  "dependencies": {
+    "@google/genai": "^1.42.0"
+  }
+}

@@ -1,0 +1,27 @@
+---
+- name: WSL Dev Bootstrap
+  hosts: localhost
+  connection: local
+  become: yes
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install base packages
+      apt:
+        name:
+          - build-essential
+          - curl
+          - wget
+          - git
+          - grep
+          - vim
+          - unzip
+          - zip
+          - python3
+          - python3-pip
+          - python3-venv
+          - docker.io
+        state: present
