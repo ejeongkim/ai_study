@@ -4,11 +4,6 @@
 ---
 
 # day1 26.02.20 # ai studio
-보안 관련
-- ^^API 키^^ AIzaSyC6MXb2HrhdGs2Qo9nksjWGGbGHVpd5WF4
-- ^^이름^^ Default Gemini API Key
-- ^^프로젝트 이름^^ projects/650453345001
-- ^^프로젝트 번호^^ 650453345001
 
 # 최초 세팅 방법
 0. setting.yml 앤서블 파일 실행
